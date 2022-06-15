@@ -5,8 +5,9 @@ import java.util.Locale;
 public enum LanguageType
 {
 	GERMAN("Deutsch", Locale.GERMAN, "german"),
-	ENGLISH("English", Locale.ENGLISH, "english");
-	
+	ENGLISH("English", Locale.ENGLISH, "english"),
+	TURKISH("Turkish", new Locale("tr", "TR"), "turkish");
+
 	private final String name;
 	private final Locale locale;
 	private final String iconName;
